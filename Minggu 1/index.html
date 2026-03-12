@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramadan Kareem | Berkah Digital</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="hero-section d-flex align-items-center justify-content-center text-center"
+        style="background-image:url('https://images.unsplash.com/photo-1711202675843-ccdb194d2b7d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+        <div class="overlay"></div>
+        <div class="container content-box">
+            <i class="fas fa-moon moon-icon mb-4"></i>
+            <h1 class="display-3 fw-bold text-gold">Ramadan Kareem</h1>
+            <p class="lead text-white mb-5">
+                Selamat menunaikan ibadah puasa 1447 H. <br>
+                Semoga penuh berkah dan ampunan.
+            </p>
+            <button type="button" class="btn btn-thr btn-lg pulse-animation" data-bs-toggle="modal"
+                data-bs-target="#thrModal">
+                <i class="fas fa-gift me-2"></i> Klik Ambil Palaha Anda!
+            </button>
+        </div>
+    </section>
+
+    <div class="modal fade" id="thrModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content text-center">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pb-5">
+                    <div class="thr-icon-wrapper mb-4">
+                        <i class="fas fa-envelope-open-text fa-5x text-success"></i>
+                    </div>
+                    <h2 class="fw-bold text-dark">Mabruk!</h2>
+                    <h4 class="text-success mb-3">Selamat Anda Mendapatkan THR</h4>
+                    <p class="text-muted">Semoga berkah dan bisa bermanfaat untuk menyambut hari raya Idul Fitri nanti.
+                    </p>
+                    <button class="btn btn-success px-5 rounded-pill" data-bs-dismiss="modal">Alhamdulillah</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
